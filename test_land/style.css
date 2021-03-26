@@ -1,0 +1,379 @@
+/* font-family:
+light:  
+font-family: "Open Sans";
+font-weight: 300;
+
+bold:   
+font-family: "Open Sans";
+font-weight: 700;
+
+regular:   
+font-family: "Open Sans";
+font-weight: 400;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;  
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    max-width: 100%;
+}
+.header, .tools{
+    z-index: 1;
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px; 
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.nav-bar-mobile{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+#menu{
+    height: 29px;
+    position: relative;
+}
+#menu:hover{
+    cursor: pointer;
+}
+.nav-item{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 13pt;
+    color: #fff;
+}
+.nav-item:hover{
+    font-weight: 700;
+    color: #5fd080;
+    transition: 0.2s;
+}
+.main-head{
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 40pt;
+    margin-bottom: 50px;
+}
+.main-text{
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 17pt;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main-btn{
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 15pt;
+    background-color: #5fd080;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.icons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.fa::before{
+    color: #fff;
+    font-size: 22pt ; 
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu-input{
+    display: none;
+}
+.mobile{
+    display: none;
+}
+.nav-bar-mobile{
+    width: 1%;
+    position: absolute;
+    top: 100px;
+    right: -20%;
+    transition: 0.6s;
+}
+.nav-bar-mobile{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.nav-bar-mobile.res{
+    right: 0px;
+}
+
+.dev-tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.dev-text, .des-text, .work-text, .lorem, .about{
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+.dev-text, .des-text, .work-text, .footer-head{
+    font-size: 22pt;
+}
+.about{
+    color: #fff;
+}
+.p-2{
+    font-size: 6pt;
+}
+.lorem{
+    color: #fff; 
+    font-size: 13pt;
+    text-align: center;
+}
+.work-text{
+    color: #fff;
+    margin: 50px 0 30px 0;
+}
+.dev-icons, .des-icons{
+    display: flex;
+    max-height: 180px;
+    width: 550px;
+    justify-content: space-between;
+}
+.des-icons{
+    align-items: center;
+}
+.dev-icon, .des-icon{
+    max-height: 150px;
+    max-width: 100%;
+}
+.des-tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.and{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 50pt;
+}
+.dev-text{
+    margin: 16px 0 32px;
+}
+
+.nojs{
+    margin-top: 30px;
+}
+.des-text{
+    margin: 60px 0 25px 0;
+}
+.wrapper-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.slider-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.slider{
+    max-width: 450px;
+    overflow: hidden; 
+}
+.slider-line{
+    display: flex;
+    transition: .6s;
+}
+.slider-phone{
+    max-width: 450px;
+}
+.slider-btn{
+    height: 60px;
+}
+.slider-btn:hover{
+    cursor: pointer;
+}
+.q-icon{
+    margin: 100px 0 40px 0;
+    height: 40px;
+}
+.faces{
+    max-height: 200px;
+    margin: 50px 0 10px 0;
+}
+.footer-head, .footer-p, .item-head, .item-text, .rights{
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+.footer-head{
+    margin: 50px 0 15px 0;
+}
+.footer-p{
+    opacity: .6;
+    margin-bottom: 30px;
+}
+.footer-icons i{
+    color: #fff;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 70px;
+}
+.rights{
+    font-size: 10pt;
+}
+.footer-info-item{
+    text-align: center;
+}
+.item-head{
+    font-size: 13pt;
+}
+.item-text{
+    font-size: 6pt;
+}
+.footer-icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+    .section-footer{
+    height: 342px;
+     }
+    .footer{
+    height: 100%;
+    }
+    .section-header{
+        height: 600px;
+    }
+    .section-tools{
+        height: 460px;
+    }
+    .section-work{
+        height: 525px;
+    }
+    .section-testimonials{
+        height: 535px;
+    }
+    .testimonials{
+        height: 100%;
+    }
+    .work{
+        height: 100%;
+    }
+    .tools{
+        height: 100%;
+    }
+    .header{
+        height: 100%;
+    }
+    .dev-text, .des-text{
+        margin: 0;
+    }
+}
+@media screen and (max-width:768px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    .faces{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 610px){
+    .slider-phone{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 540px){
+    .dev-icons, .des-icons{
+    width: 100%;
+    }
+    .dev-icon, .des-icon{
+        max-height: 120px;
+    }
+    .q-icon{
+        margin-bottom: 10px
+    }
+    .footer-info{
+        width: 90%;
+    }
+    .footer-icon{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 425px){
+    .mobile{
+        padding: 50px 30px 50px 30px; 
+    }
+}
